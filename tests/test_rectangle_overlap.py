@@ -1,6 +1,6 @@
 import unittest
 
-from src.barebone_poetry_project.solution import Point, Rectangle
+from ..src.barebone_poetry_project.solution import Point, Rectangle
 
 
 class TestRectangleOverlap(unittest.TestCase):
