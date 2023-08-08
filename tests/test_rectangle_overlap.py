@@ -1,9 +1,10 @@
 import unittest
+from unittest import TestCase
 
 from ..src.barebone_poetry_project.solution import Point, Rectangle
 
 
-class TestRectangleOverlap(unittest.TestCase):
+class TestRectangleOverlap(TestCase):
     def test_overlaps_point(self):
         A = Rectangle(bottom_left_point=Point(0, 0), top_right_point=Point(10, 10))
         B = Point(5, 5)
