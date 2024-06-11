@@ -8,7 +8,7 @@ packages = [{include = "barebone_poetry_project", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-black = "^23.7.0"
+black = "^24.3.0"
 ruff = "^0.0.282"
 pytest = "^7.4.0"
 pre-commit = "^3.3.3"
